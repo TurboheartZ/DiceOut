@@ -1,0 +1,1 @@
+E:\UWP_Dev\App\DiceOut\DiceOut\DiceOut.csproj;x86

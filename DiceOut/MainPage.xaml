@@ -8,6 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <StackPanel>
+            <Button x:Name="RollButton" Content="Roll Die" Click="RollButton_Click"/>
+            <TextBlock x:Name="DieValueText" Text="Die Value: " />
+        </StackPanel>
     </Grid>
 </Page>

@@ -22,9 +22,21 @@ namespace DiceOut
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        // Variale to contain dice number
+        public int dieNum;
+
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void RollButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Generate a random number between 1 and 6 per button click
+            // Use system time as random seed
+            Random rnd = new Random(System.DateTime.Now.Second);
+            dieNum = rnd.Next(1, 7);
+            DieValueText.Text = "The number is " + dieNum.ToString();
         }
     }
 }
