@@ -190,3 +190,8 @@ E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\qualifiers.txt
 E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\qualifiers.txt.intermediate
 E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\ProjectArchitectures.txt
+E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\DieImage.g.i.cs
+E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\DieImage.g.cs
+E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\DieImage.xaml
+E:\UWP_Dev\App\DiceOut\DiceOut\obj\x86\Debug\DieImage.xbf
+E:\UWP_Dev\App\DiceOut\DiceOut\bin\x86\Debug\DieImage.xbf

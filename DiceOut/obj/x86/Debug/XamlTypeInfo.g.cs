@@ -132,15 +132,17 @@ namespace DiceOut.DiceOut_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "DiceOut.MainPage";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable = new string[4];
+            _typeNameTable[0] = "DiceOut.DieImage";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[2] = "DiceOut.MainPage";
+            _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::DiceOut.MainPage);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable = new global::System.Type[4];
+            _typeTable[0] = typeof(global::DiceOut.DieImage);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[2] = typeof(global::DiceOut.MainPage);
+            _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +177,8 @@ namespace DiceOut.DiceOut_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::DiceOut.MainPage(); }
+        private object Activate_0_DieImage() { return new global::DiceOut.DieImage(); }
+        private object Activate_2_MainPage() { return new global::DiceOut.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,18 +190,25 @@ namespace DiceOut.DiceOut_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  DiceOut.MainPage
-                userType = new global::DiceOut.DiceOut_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+            case 0:   //  DiceOut.DieImage
+                userType = new global::DiceOut.DiceOut_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_0_DieImage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Page
+            case 1:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::DiceOut.DiceOut_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+            case 2:   //  DiceOut.MainPage
+                userType = new global::DiceOut.DiceOut_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_2_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 3:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::DiceOut.DiceOut_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>E434B32C8D14831D227002A8CFEEB1880AE895B7D093EE0D87EAE9DA8D657FD9</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>EE2036C7D9B0317A48CC20AF367EE3FD295468016BBFB2CF919C1859898C109D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>35a6cf87-c618-46db-870c-85acd3dee0b5_1.0.0.0_x86__b5zvg10rmrrdy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>35a6cf87-c618-46db-870c-85acd3dee0b5_b5zvg10rmrrdy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>35a6cf87-c618-46db-870c-85acd3dee0b5</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="E:\UWP_Dev\App\DiceOut\DiceOut\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-02-28T06:43:00.925</Modified>
+      <Modified>2019-03-04T06:46:41.065</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\bin\x86\Debug\DiceOut.exe">
       <PackagePath>entrypoint\DiceOut.exe</PackagePath>
-      <Modified>2019-02-28T06:43:00.673</Modified>
+      <Modified>2019-03-04T06:46:40.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Xinyi Zhang\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,9 +448,37 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T06:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-02-28T05:42:51.133</Modified>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_1.png">
+      <PackagePath>Assets\die_1.png</PackagePath>
+      <Modified>2019-03-04T02:29:51.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_2.png">
+      <PackagePath>Assets\die_2.png</PackagePath>
+      <Modified>2019-03-04T02:29:51.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_3.png">
+      <PackagePath>Assets\die_3.png</PackagePath>
+      <Modified>2019-03-04T02:29:51.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_4.png">
+      <PackagePath>Assets\die_4.png</PackagePath>
+      <Modified>2019-03-04T02:29:51.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_5.png">
+      <PackagePath>Assets\die_5.png</PackagePath>
+      <Modified>2019-03-04T02:29:51.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_6.png">
+      <PackagePath>Assets\die_6.png</PackagePath>
+      <Modified>2019-03-04T02:29:51.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_roll.png">
+      <PackagePath>Assets\die_roll.png</PackagePath>
+      <Modified>2019-03-04T06:05:49.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\reset.png">
+      <PackagePath>Assets\reset.png</PackagePath>
+      <Modified>2019-03-04T06:36:09.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -486,9 +514,13 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-02-28T05:42:51.133</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\bin\x86\Debug\DiceOut.xr.xml">
       <PackagePath>DiceOut.xr.xml</PackagePath>
-      <Modified>2019-02-28T06:28:18.928</Modified>
+      <Modified>2019-03-04T06:42:30.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -496,11 +528,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-02-28T06:28:20.007</Modified>
+      <Modified>2019-03-04T06:42:30.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\bin\x86\Debug\Core\DiceOut.exe">
       <PackagePath>DiceOut.exe</PackagePath>
-      <Modified>2019-02-28T06:43:00.922</Modified>
+      <Modified>2019-03-04T06:46:41.062</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -334,8 +334,29 @@
     <AppxPackagedFile Include="C:\Users\Xinyi Zhang\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_1.png">
+      <PackagePath>Assets\die_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_2.png">
+      <PackagePath>Assets\die_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_3.png">
+      <PackagePath>Assets\die_3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_4.png">
+      <PackagePath>Assets\die_4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_5.png">
+      <PackagePath>Assets\die_5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_6.png">
+      <PackagePath>Assets\die_6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\die_roll.png">
+      <PackagePath>Assets\die_roll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\reset.png">
+      <PackagePath>Assets\reset.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -363,6 +384,9 @@
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UWP_Dev\App\DiceOut\DiceOut\bin\x86\Debug\DiceOut.xr.xml">
       <PackagePath>DiceOut.xr.xml</PackagePath>
